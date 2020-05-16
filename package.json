@@ -49,6 +49,7 @@
         "pxt-core": "5.36.4"
     },
     "scripts": {
+        "start": "npm run serve",
         "serve": "node node_modules/pxt-core/built/pxt.js serve",
         "test": "node node_modules/pxt-core/built/pxt.js travis"
     }
